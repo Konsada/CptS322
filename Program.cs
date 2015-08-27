@@ -13,12 +13,14 @@ namespace CPT_S_322_HW1
             string input = null;
             string[] inputArray = null;
             List<int> entry = new List<int>();
-            input = "5 2 1 94 28 44 33 2 5 82 28 34 52 62";
-            inputArray = input.Split(' ');
             BinaryTree<int> tree = new BinaryTree<int>();
             tree.Root = new BinaryTreeNode<int>();
             tree.Root.Value = -1;
 
+            
+            Console.WriteLine("Enter a collect of numbers in the range [0,100], separated by spaces:");
+            input = Console.ReadLine();
+            inputArray = input.Split(' ');
             foreach (string s in inputArray)
             {
                 tree.Add(Convert.ToInt16(s));
