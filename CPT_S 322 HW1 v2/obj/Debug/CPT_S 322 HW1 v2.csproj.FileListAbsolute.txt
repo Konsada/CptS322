@@ -1,0 +1,6 @@
+c:\users\keons_000\documents\visual studio 2015\Projects\CPT_S 322 HW1 v2\CPT_S 322 HW1 v2\bin\Debug\CPT_S 322 HW1 v2.exe.config
+c:\users\keons_000\documents\visual studio 2015\Projects\CPT_S 322 HW1 v2\CPT_S 322 HW1 v2\bin\Debug\CPT_S 322 HW1 v2.exe
+c:\users\keons_000\documents\visual studio 2015\Projects\CPT_S 322 HW1 v2\CPT_S 322 HW1 v2\bin\Debug\CPT_S 322 HW1 v2.pdb
+c:\users\keons_000\documents\visual studio 2015\Projects\CPT_S 322 HW1 v2\CPT_S 322 HW1 v2\obj\Debug\CPT_S 322 HW1 v2.csprojResolveAssemblyReference.cache
+c:\users\keons_000\documents\visual studio 2015\Projects\CPT_S 322 HW1 v2\CPT_S 322 HW1 v2\obj\Debug\CPT_S 322 HW1 v2.exe
+c:\users\keons_000\documents\visual studio 2015\Projects\CPT_S 322 HW1 v2\CPT_S 322 HW1 v2\obj\Debug\CPT_S 322 HW1 v2.pdb
