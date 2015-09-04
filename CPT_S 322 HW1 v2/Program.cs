@@ -1,4 +1,10 @@
-﻿using System;
+﻿/***************************************
+Keon Sadatian
+CPT_S 322 - HW - 1 : B-tree
+DUE: 9/4/2015
+**************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +17,8 @@ namespace CPT_S_322_HW1_v2
         static void Main(string[] args)
         {
             Tree tree = new Tree();
-            string input = "5 2 1 33 28 94 2 10 72 3 4 5 8 43 34 99 3";
+            //string input = "5 2 1 33 28 94 2 10 72 3 4 5 8 43 34 99 3"; // used for testing purposes
+            string input;
             string[] inputArray = null;
 
             Console.WriteLine("Enter a collection of numbers in the range " +
@@ -34,6 +41,11 @@ namespace CPT_S_322_HW1_v2
             Console.ReadLine();
         }
     }
+    /********************************
+    Node class, responsible for storing
+    value of data and pointers to left
+    and right nodes.
+    ********************************/
     class Node
     {
         private int data;
@@ -54,16 +66,20 @@ namespace CPT_S_322_HW1_v2
             get; set;
         }
 
-        public Node() { }
+        public Node() { } // default constructor
         public Node(int data) { Data = data; }
         public Node(int data, Node Left, Node Right) { this.data = data; this.Left = Left; this.Right = Right; }
 
     }
-
+    /******************************************
+    Tree class contains all functions implemented
+    on the nodes, such as add, traverse/print,
+    count max height and check if it is empty
+    ****************************************/
     class Tree
     {
         private Node root;
-        public int count
+        public int count // property of tree, number of added nodes to the tree
         {
             get; private set;
         }
@@ -72,7 +88,7 @@ namespace CPT_S_322_HW1_v2
 
         public Tree(Node root) { this.root = root; }
 
-        public bool addNodeToTree(int data)
+        public bool addNodeToTree(int data) // adds node to tree, doesn't add duplicates
         {
             Node node = new Node(data);
 
@@ -83,6 +99,7 @@ namespace CPT_S_322_HW1_v2
                 this.root = node;
                 if (this.root != null)
                 {
+                    this.count++;
                     return true;
                 }
                 else
@@ -128,11 +145,11 @@ namespace CPT_S_322_HW1_v2
             return true;
         }
 
-        public void printAscendingOrder()
+        public void printAscendingOrder() // calls corresponding method using this root
         {
             printAscendingOrder(this.root);
         }
-        public void printAscendingOrder(Node node)
+        public void printAscendingOrder(Node node) // prints the bst in ascending order
         {
             if (node != null)
             {
@@ -146,7 +163,7 @@ namespace CPT_S_322_HW1_v2
         {
             return maxHeight(this.root);
         }
-        public int maxHeight(Node node)
+        public int maxHeight(Node node) // calculates the max height of the bst
         {
             if (node == null)
             {
@@ -165,7 +182,7 @@ namespace CPT_S_322_HW1_v2
                 return highestRight + 1;
             }
         }
-        public bool isEmpty()
+        public bool isEmpty() // checks if tree is empty to begin with.
         {
             if (this.root == null)
             {
