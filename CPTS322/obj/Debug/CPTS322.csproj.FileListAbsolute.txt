@@ -1,0 +1,9 @@
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\bin\Debug\CPTS322.exe.config
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\bin\Debug\CPTS322.exe
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\bin\Debug\CPTS322.pdb
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\obj\Debug\CPTS322.csprojResolveAssemblyReference.cache
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\obj\Debug\CPTS322.Form1.resources
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\obj\Debug\CPTS322.Properties.Resources.resources
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\obj\Debug\CPTS322.csproj.GenerateResource.Cache
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\obj\Debug\CPTS322.exe
+c:\users\keons_000\documents\visual studio 2015\Projects\CPTS322\CPTS322\obj\Debug\CPTS322.pdb
